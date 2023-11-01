@@ -75,8 +75,30 @@ nav li a {
 }
 
 .img{
-    display: block;
+    /* display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
     width: 100%;
+}
+
+/* responsive for small devices */
+@media screen and (max-width: 576px) {
+header{
+    padding: 20px;
+}    
+
+nav{
+    flex-direction: column;
+}
+}
+
+
+/* responsive for medium devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
