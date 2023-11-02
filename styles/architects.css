@@ -175,6 +175,34 @@ main{
     font-size: 1rem;
     font-weight: 400;
 }
+
+.facts-card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.facts-card-container, img{
+    margin-top: 10px;
+}
+
+.card{
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    text-align: center;
+    width: 12rem;
+}
+
+.card-stat{
+    color: var(--Dark-02, #424242);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.card-title{
+    color: var(--Dark-03, #727272);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
     
     
     /* responsive for medium devices */
