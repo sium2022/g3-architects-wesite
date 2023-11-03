@@ -135,31 +135,6 @@ main{
 }
 
 
-
-
-
-
-
-/* responsive for small devices */
-@media screen and (max-width: 576px) {
-    header{
-        padding: 20px;
-    }    
-    
-    nav{
-        flex-direction: column;
-    }
-    .teams-content{
-        padding: 20px;
-    }
-    .teams-container{
-        flex-direction: column-reverse;
-    }
-    .teams-img{
-        grid-template-columns: 1fr;
-    }
-}
-
 /* feature section */
 
 /* fact section */
@@ -203,7 +178,41 @@ main{
     font-size: 1.25rem;
     font-weight: 600;
 }
+
+
+
+
+
+
+/* responsive for small devices */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }    
     
+    nav{
+        flex-direction: column;
+    }
+    .teams-content{
+        padding: 20px;
+    }
+    .teams-container{
+        flex-direction: column-reverse;
+    }
+    .teams-img{
+        grid-template-columns: 1fr;
+    }
+    .facts-card-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+
+
+
+
     
     /* responsive for medium devices */
     @media screen and (min-width: 576px) and (max-width: 960px) {
