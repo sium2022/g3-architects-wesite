@@ -273,7 +273,7 @@ main{
     .teams-content{
         padding: 20px;
     }
-    .teams-container{
+    .teams-container, .feature{
         flex-direction: column-reverse;
     }
     .teams-img{
@@ -293,6 +293,16 @@ main{
         width: 140px;
         text-align: center;
     }
+    .feature-img, img{
+        width: 95%;
+    }
+    .ten-years-badge{
+        position: absolute;
+        max-width: 300px;
+
+        width: 50px;
+        height: 20px;
+    }
 }
 
 
@@ -305,7 +315,7 @@ main{
         header{
             padding: 50px;
         }
-        nav, .teams-container{
+        nav, .teams-container, .feature{
             flex-direction: column;
         }
 
